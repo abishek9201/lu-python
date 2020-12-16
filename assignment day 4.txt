@@ -1,0 +1,15 @@
+#assignment for day  4 open file and writing and then appending the text to it 
+abc=open ("lu.txt",'w')
+abc.write ("I Love lets upgrade")
+abc.close()
+abc=open("lu.txt","a")
+abc.write( "  " 'you are amazing sir')
+abc.close()
+# to find the factorial of the number 
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fact(n-1)
+n=int(input("Input a number to find the factiorial : "))
+print(fact(n))
